@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gerador de QRCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gerador de QRcode</h2>
+        <label for="user">Texto: <input type="text" id="user" name="user" placeholder="Digite algo"></label>
+        
+        <button onclick="gerarQrCode()">Gerar QRcode</button>
+        <div id="qrcode"></div>
+        <button onclick="reload()" id="reload">Novo QRCode</button>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
