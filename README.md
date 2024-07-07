@@ -8,3 +8,5 @@ API: https://api.qrserver.com/v1/create-qr-code/?data=
 A Função de gerar o QRCode ela além de criar o QRCode, ela também é responsável por criar a tag "img" e inserir o QRCode gerado pela API dentro da div #reload, ela verifica se o usuário digitou algo.
 
 Feito por: Mikael Carlos - Vinícius de Gusmão
+
+link: https://mikaelpeganinguem.github.io/QRCode-Generator.io/
